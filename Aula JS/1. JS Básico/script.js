@@ -36,6 +36,7 @@ console.log(f);
 ************************************************************************************************
 */
 
+
 // 3 - ALERT E PROMPT 
 /*
 // Alert: 
@@ -43,16 +44,44 @@ console.log(f);
 alert("Seja bem vindo");  
 */ 
 
+
 // Prompt: 
+/*
 
 var name = prompt("Digite o seu nome:");
 alert("O seu nome é " + name);
 
-var idade = prompt("Digite a sua idade: ");
-alert("Você tem " + idade + " anos");
+*/
 
+/*
+//Utilizando prompt e alert juntos:
 var num = parseInt(prompt("Digite um numero"));
 
 dobro = num + num; 
 
-alert("O Dobro do numero é: " + dobro);
+alert("O Dobro do numero é: " + dobro); 
+
+*******************************************************************************************
+*/
+
+//ELSE E IF 
+/*
+var idade = 24; 
+
+if (idade >= 35){
+    console.log("Pode beber");
+    console.log("Qual o seu pedido?")
+}
+
+else if (idade >=18){
+    w
+    console.log("Mostre a idadentidade");
+}
+
+else {
+    console.log("Não pode");
+    console.log("Volte futuramente");
+}
+************************************************************************************************
+*/
+
