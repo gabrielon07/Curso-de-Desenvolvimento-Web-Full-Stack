@@ -35,3 +35,24 @@ console.log(f);
 
 ************************************************************************************************
 */
+
+// 3 - ALERT E PROMPT 
+/*
+// Alert: 
+
+alert("Seja bem vindo");  
+*/ 
+
+// Prompt: 
+
+var name = prompt("Digite o seu nome:");
+alert("O seu nome é " + name);
+
+var idade = prompt("Digite a sua idade: ");
+alert("Você tem " + idade + " anos");
+
+var num = parseInt(prompt("Digite um numero"));
+
+dobro = num + num; 
+
+alert("O Dobro do numero é: " + dobro);
