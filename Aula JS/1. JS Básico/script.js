@@ -64,6 +64,7 @@ alert("O Dobro do numero é: " + dobro);
 *******************************************************************************************
 */
 
+
 // 4 - ELSE E IF 
 /*
 var idade = 24; 
@@ -85,8 +86,82 @@ else {
 ************************************************************************************************
 */
 
-// 5 - OPERADOR TERNÁRIO 
 
+// 5 - OPERADOR TERNÁRIO 
+/*
 var idade = 24; 
 
 idade >= 18 ? console.log("Pode") : console.log("Não pode");
+*************************************************************************************************
+*/
+
+
+// 6 - SWITCH 
+/*
+var nota1 = 8;
+var nota2 = 7;
+
+var media = (nota1 + nota2) / 2; 
+var conceito = ""
+
+if (media >= 8.5){
+    conceito = "Ótimo";
+} else if (media >=7.5 ){
+    conceito = "Bom" 
+}  else if (media >=6){
+    conceito = "Regular"    
+  }
+  else {
+    conceito = "Você precisa estudar mais"
+}
+
+console.log(media);
+console.log(conceito);
+
+switch (conceito){
+     case "Ótimo":
+         console.log("Parabéns, continue assim");
+         break;
+     case "Bom":
+         console.log("Você está quase perfeito");
+         break;
+     case "Regular":
+         console.log("Você precisa melhorar")
+         break;
+     default:
+         console.log("Houve algum erro!");
+         break;
+}
+************************************************************************************
+*/
+
+
+// 7 - FOR AND WHILE 
+
+//FOR
+/* 
+var numero = 5; 
+
+for(var vez = 1; vez <= numero; vez++ ){
+       console.log("Executando o FOR pela " + vez + " vez.")
+}
+
+console.log("Acabou!");
+*/
+
+//WILLE 
+/*
+var numero = Math.random() * 100; 
+
+while (numero < 90){
+      console.log("Numero " + numero);
+      numero = Math.random()*100;
+}
+
+console.log(numero);
+console.log("Acabou");
+*************************************************************************************************
+*/ 
+
+
+// 8 - ARRAYS 
