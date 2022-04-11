@@ -165,3 +165,10 @@ console.log("Acabou");
 
 
 // 8 - ARRAYS 
+/*
+var alunos = ["Gabriel", "Beatriz", "Alex", "Roberta"]
+
+for (i=0; i < alunos.length; i++) {
+    console.log(alunos[i]);
+}
+*/
