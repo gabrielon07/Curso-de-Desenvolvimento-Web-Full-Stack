@@ -172,3 +172,54 @@ for (i=0; i < alunos.length; i++) {
     console.log(alunos[i]);
 }
 */
+
+//FUNÇÕES 
+/*
+function media (n1, n2){
+    var nota1 = n1;
+    var nota2 = n2;
+    
+    var media = (nota1 + nota2) / 2; 
+    
+    return media;
+}
+
+var resultado1 = media(8, 9);
+var resultado2 = media(10, 5);
+
+console.log(resultado1);
+console.log(resultado2 );
+*/
+/*
+var media2 = function (n3, n3){
+      return (n3 + n3) / 2;
+}
+console.log(media2(5,2));
+*/
+
+var nome = ["Gabriel", "Alex", "Mario"];
+var notaA = [8.5, 8, 5];
+var notaB = [9.7, 7, 2];
+
+function media(n1, n2){
+    return (n1 + n2) / 2;   
+} 
+
+function passou(media){
+    if (media > 7){
+        return "Aprovado";
+    } else {
+        return "Reprovado"  
+    }
+}
+
+for (var index in nome){
+    var nota1 = notaA[index];
+    var nota2 = notaB[index];
+
+    var m = media(nota1, nota2);
+
+    console.log(nome[index] + " - " + nota1 + " - " + nota2 + " - " + m + " - " + passou(m)); 
+}
+
+
