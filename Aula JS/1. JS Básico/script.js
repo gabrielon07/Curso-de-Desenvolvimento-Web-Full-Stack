@@ -171,9 +171,12 @@ var alunos = ["Gabriel", "Beatriz", "Alex", "Roberta"]
 for (i=0; i < alunos.length; i++) {
     console.log(alunos[i]);
 }
+***************************************************************************************************
 */
 
-//FUNÇÕES 
+
+
+// 9 - FUNÇÕES 
 /*
 function media (n1, n2){
     var nota1 = n1;
@@ -195,8 +198,12 @@ var media2 = function (n3, n3){
       return (n3 + n3) / 2;
 }
 console.log(media2(5,2));
+**************************************************************************************************
 */
 
+
+// PROGRAMA UTILIZANDO TUDO O QUE FOI ENSINADO:
+/*
 var nome = ["Gabriel", "Alex", "Mario"];
 var notaA = [8.5, 8, 5];
 var notaB = [9.7, 7, 2];
@@ -221,5 +228,47 @@ for (var index in nome){
 
     console.log(nome[index] + " - " + nota1 + " - " + nota2 + " - " + m + " - " + passou(m)); 
 }
+*****************************************************************************************************
+*/
 
+
+// 10 - OBJETOS - PROPRIEDADES 
+/*
+var aluno = {
+    nome: "Gabriel",
+    nota: [5, 10]
+
+}
+
+aluno.matricula = 1441978;
+aluno.sobrenome = "Oliveira Nunes";
+
+console.log(aluno);
+*/
+// 10.1 - OBJETOS - MÉTODOS 
+/*
+function calcMedia(){
+    return (this.notas[0] + this.notas[1]) / 2;
+}
+
+var aluno = {
+    nome: "Gabriel",
+    notas: [10, 6],
+    media: calcMedia 
+    
+}
+
+var aluno1 = {
+    nome: "Igor",
+    notas: [8, 7],
+    media: calcMedia
+}
+
+console.log(aluno.nome);
+console.log(aluno.media())
+
+console.log(aluno1.nome);
+console.log(aluno1.media())
+*/
+// 10.2 - OBJETOS - CONSTRUTORES 
 
