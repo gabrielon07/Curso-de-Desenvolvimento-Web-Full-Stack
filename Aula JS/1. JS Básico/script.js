@@ -290,6 +290,6 @@ var turma = [
     criarAluno("Nicolas", 5, 8)
 ]
 
-var aluno = turma[1];
-console.log(aluno);
-console.log(aluno.media());
+for (var aluno of turma){
+    console.log(aluno);
+}
