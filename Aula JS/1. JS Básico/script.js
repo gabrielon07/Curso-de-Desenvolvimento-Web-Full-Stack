@@ -272,3 +272,24 @@ console.log(aluno1.media())
 */
 // 10.2 - OBJETOS - CONSTRUTORES 
 
+function criarAluno (nome, n1, n2){
+
+    return {
+        nome: nome,
+        nota1: n1,
+        nota2: n2,
+        media: function(){
+            return(this.nota1 + this.nota2) / 2;
+        }
+    }
+} 
+
+var turma = [
+    criarAluno("Gabriel", 10, 6),
+    criarAluno("Julia", 10, 9),
+    criarAluno("Nicolas", 5, 8)
+]
+
+var aluno = turma[1];
+console.log(aluno);
+console.log(aluno.media());
