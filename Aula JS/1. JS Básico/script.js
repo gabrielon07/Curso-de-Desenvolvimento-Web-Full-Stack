@@ -271,7 +271,7 @@ console.log(aluno1.nome);
 console.log(aluno1.media())
 */
 // 10.2 - OBJETOS - CONSTRUTORES 
-
+/*
 function criarAluno (nome, n1, n2){
 
     return {
@@ -293,3 +293,6 @@ var turma = [
 for (var aluno of turma){
     console.log(aluno);
 }
+*****************************************************************************************I
+*/
+
