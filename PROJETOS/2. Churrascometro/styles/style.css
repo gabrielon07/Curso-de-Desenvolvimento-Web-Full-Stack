@@ -1,0 +1,16 @@
+.container{
+    max-width: 300px; /*definir largura*/
+    margin:auto; /*centralizar*/
+    background-color: aliceblue; /*cor do fundo*/
+    padding: 20px; /*espaço do conteudo entre a borda*/
+    border-radius: 10px; /*colocar borda*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 100%; /*vai ficar 100% na largura do pai*/
+    display: block; /*não vai ter nada ao lado do display (o botao calcular some)*/
+    padding: 5px;
+    box-sizing: border-box; /*a bordar vai ser 100% contendo TUDO*/
+    margin-bottom: 10px; 
+}
